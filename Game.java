@@ -9,7 +9,7 @@ public class Game
 
     public static void main(String args[]) 
     {
-      System.out.println("Enter any one of the following inputs:  ");
+      System.out.println("Enter any one  inputs:  ");
       System.out.println("ROCK");
       System.out.println("PAPER");
       System.out.println("SCISSORS");
@@ -49,7 +49,7 @@ public class Game
         else
             computermove = Game.SCISSORS;
             
-        System.out.println("Computer move is: " + computermove);
+        System.out.println("Computer's move is: " + computermove);
         System.out.println();
         return computermove;    
     }
@@ -61,7 +61,7 @@ public class Game
         Scanner in = new Scanner(System.in);
         String input = in.next();
         String playermove = input.toUpperCase();
-        System.out.println("Player move is: "+ playermove);
+        System.out.println("Player's move is: "+ playermove);
         return playermove;
     }    
 }
